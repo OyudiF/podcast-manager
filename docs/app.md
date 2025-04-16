@@ -22,4 +22,26 @@ Listar os episódios podcasts em sessões por categorias
 
 #### Implementação:
 
-Vou retornar em uma api rest o nome do podcast, nome do episódio, imagem de capa, link.
+Vou retornar em uma api rest (json) o
+nome do podcast, nome do episódio, imagem de capa, link, categoria
+
+```js
+[
+  {
+    podcastName: "Flow Games",
+    episode: "PS PLUS MAIS CARA e THE LAST OF US LANÇADO DE NOVO - #FGN #170",
+    videoId: "n39Fx04r1Jc",
+    cover: "https://i.ytimg.com/vi/n39Fx04r1Jc/hqdefault.jpg",
+    link: "https://www.youtube.com/watch?v=n39Fx04r1Jc",
+    category: ["games", "noticias"],
+  },
+  {
+    podcastName: "Flow Games",
+    episode: "GAMEPLAY SOUTH OF MIDNIGHT, NOVO LANÇAMENTO - #flowgames",
+    videoId: "MS9Z8otTams",
+    cover: "https://i.ytimg.com/vi/MS9Z8otTams/hqdefault.jpg",
+    link: "https://www.youtube.com/watch?v=MS9Z8otTams",
+    category: ["games"],
+  },
+];
+```
