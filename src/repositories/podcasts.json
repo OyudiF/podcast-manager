@@ -1,14 +1,20 @@
 [
   {
-    "podcastName": "Flow Games",
+    "podcastName": "FlowGames",
     "episode": "PS PLUS MAIS CARA e THE LAST OF US LANÇADO DE NOVO - #FGN #170",
     "videoId": "n39Fx04r1Jc",
     "category": ["games", "noticias"]
   },
   {
-    "podcastName": "Flow Games",
+    "podcastName": "FlowGames",
     "episode": "GAMEPLAY SOUTH OF MIDNIGHT, NOVO LANÇAMENTO - #flowgames",
     "videoId": "MS9Z8otTams",
     "category": ["games"]
+  },
+  {
+    "podcastName": "NikNocturnal",
+    "episode": "Talking with Bryan Garris from Knocked Loose",
+    "videoId": "00000000",
+    "category": ["musica"]
   }
 ]
